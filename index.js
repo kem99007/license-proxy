@@ -1,7 +1,7 @@
 const https = require('https');
 const http = require('http');
 
-const SCRIPT_URL = 'https://license-proxy-41gq.onrender.com/?id=test04';
+const SCRIPT_URL = 'https://license-proxy-41gq.onrender.com';
 
 const server = http.createServer((req, res) => {
     const id = req.url.replace('/?id=', '').replace('/check?id=', '');
