@@ -1,7 +1,7 @@
 const https = require('https');
 const http = require('http');
 
-const SCRIPT_URL = 'https://license-proxy-41gq.onrender.com';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwscNdWf49oJAYYKLmSfprK2gfivh4QgR5cJlEKkZWczY9ObJNj1rToHiARQdONqkGp8w/exec';
 
 const server = http.createServer((req, res) => {
     const id = req.url.replace('/?id=', '').replace('/check?id=', '');
